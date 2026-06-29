@@ -21,6 +21,14 @@ with a slicer to isolate **new customers**.
   by **Email + Campaign A ($2,124)** vs Email + Campaign B ($1,382).
 - Email was the widest-reach channel overall ($7,909 in total sales).
 
+**Method:** Built a PivotTable from the raw interaction data (Campaign Type in rows,
+Channel in columns, Sales in values), then added a **Customer Type slicer** and filtered
+to "New" to isolate new-customer sales. Comparing the sliced view against the overall
+totals is what surfaces the flip — Campaign B wins overall, but Campaign A wins for new
+customers.
+
+![New-customer pivot table with Customer Type slicer](new-customer-pivot.png)
+
 ## Task 2 — Communicating Findings
 Built two pivot charts in Excel and assembled a client-ready recommendation slide,
 plus a short summary email.
